@@ -1,0 +1,88 @@
+.containerMain {
+    width: 100%;
+    min-height: 85vh;
+    height: auto;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.realContainerMain {
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.upperContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 75%;
+    margin-bottom: 30px;
+}
+
+.upperContentHeading {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+}
+
+.upperContentText {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+.lowerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 75%;
+}
+
+.lowerContentHeading {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+}
+
+.lowerContentLinkContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalbtn{
+    min-width: 250px;
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+    background: rgb(0, 98, 255);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.lowerContentText{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 15px;
+}
+.modalbtn:hover{
+    cursor: pointer;
+}

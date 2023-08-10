@@ -9,7 +9,7 @@ function NavBar() {
         <>
         <div className={`${styles.containerMain}`}>
             <div className={`${styles.containerOther}`}>
-            <a className={`${styles.logoContainer}`}>
+            <a href='/' className={`${styles.logoContainer}`}>
                 <GiTakeMyMoney className={`${styles.logo}`}/>
                 <h2>
                     PORTFOLIO<br />
@@ -23,7 +23,8 @@ function NavBar() {
             <div className={`${styles.tabViewDiv} ${showNavBar?styles.notshowNavBar : 'null'}`}>
             <div className={`${styles.linkContainer}`}>
                 <a href='/'>Home</a>
-                <a href='/risk-sustainablity'> Risk Sustainablity</a>
+                <a href='/risk-sustainability'> Risk Sustainablity</a>
+                <a href='?signup=1'>Sign In/Sign Up</a>
             </div>
             </div>
         </div>

@@ -26,7 +26,7 @@ function CenterPanel() {
                     </div>
                 </div>
                 <div className={`${styles.buttonContainer}`}>
-                    <a className={`${styles.NavLink}`}>
+                    <a href='/risk-sustainability' className={`${styles.NavLink}`}>
                         Select a sustainablitiy strategy
                     </a>
                 </div>
