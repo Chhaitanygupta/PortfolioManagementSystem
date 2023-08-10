@@ -1,0 +1,84 @@
+.containerMain{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: transparent;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 85vh;
+    flex-wrap: wrap;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.image{
+    height: auto;
+    max-width: 100%;
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.textHeading{
+    text-align: left;
+    font-size: 30px;
+    color: blue;
+    font-weight: 400;
+}
+.textHeading span{
+    font-size: 44px;
+    font-weight: 600;
+}
+.textHeading span strong{
+    font-size: 44px;
+    font-weight: 600;
+    color: black;
+}
+.textContent{
+    text-align: left;
+    font-size: 22px;
+    color: black;
+}
+
+.buttonContainer{
+    height: 100px;
+    width: fit-content;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+.NavLink{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.781);
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.NavLink:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.882);
+    color: black;
+}
